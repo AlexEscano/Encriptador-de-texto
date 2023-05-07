@@ -7,6 +7,7 @@ let ningunTexto = document.getElementById("parra")
 
 
 botonencriptar.onclick = function encriptar(){
+    alert('Hola')
     munieco.style.display = 'none';
     ningunTexto.style.display = 'none';
     // texto.value = texto.value.toLowerCase;
