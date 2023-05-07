@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-color: #f4f4fc;
+  
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    width: 100 px;
+    height: 50px;
+    padding-top:20px;
+    padding-left: 40px;
+}
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-caja-texto{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    padding-left:100px ;
+    width: 1080px;
+    height: 400px;
+}
+
+.cajatexto{
+    width: 60%;
+    height: 100%;
+    border:none;
+    outline: none;
+    background-color: #f4f4fc;
+    color: #0a3871;
+    font-weight: 400;
+    font-size: 34px;
+    
+}
+
+.cajatexto::placeholder{
+    color: #0a3871;
+}
+
+.alerta{
+    position: absolute;
+    top: 430px;
+    left: 370px;
+    display: flex;
+    color: #495057;
+
+}
+
+.alerta img{
+    margin: 0 10px;
+}
+
+.contenedor-botones{
+    position: absolute;
+    top: 80%;
+    height: 80px;
+    padding-left: 10%;
+    padding-top: 15px;
+}
+
+.btn-encriptar{
+    width: 328px;
+    height: 67px;
+    border-radius:24px;
+    background-color: #0a3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    width: 328px;
+    height: 67px;
+    border-radius:24px;
+    background-color: #d8dfe8;
+    color: #0a3871;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    position: abosolute;
+    top:50px;
+
+}
+
+.seccion2{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 540px;
+    right: 90px;
+    padding-right: 20px;
+    background-color: #FFF;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.50);
+}
+
+.contenedor-munieco{
+   
+    position: absolute;
+    left: 30px;
+    top:180;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.contenedor-munieco{
+    position: absolute;
+    top:40px;
+    right: 20px;
+}
+
+.contenerdor-parrafo{
+    position: absolute;
+    top: 400px;
+    left: 75px;
+    text-align: center;
+}
+
+.texto-resultado{
+  width: 400px;
+  height: 530px;
+  outline: none;
+  border-radius:30px;
+  border: none;
+  color: #0a3871;
+  font-weight: 400;
+  font-size: 34px;
+  padding: 30px;
+}
+
+/* footer{
+    display: flex;
+    background-color: #0a3871;
+    padding: 20px;
+    height: 100%;
+    justify-content: flex-end;
+} */
+
+
+
