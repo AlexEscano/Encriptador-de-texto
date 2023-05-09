@@ -18,7 +18,6 @@ botonencriptar.onclick = function encriptar(){
 
 
 
-
 botondesencriptar.onclick = function desencriptar(){
     munieco.style.display = 'none';
     ningunTexto.style.display = 'none';
