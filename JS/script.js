@@ -10,7 +10,7 @@ botonencriptar.onclick = function encriptar(){
     
     munieco.style.display = 'none';
     ningunTexto.style.display = 'none';
-    // texto.value = texto.value.toLowerCase;
+    texto.value = texto.value.toLowerCase();
     var cifrado = texto.value.replace(/e/gi,'enter' ).replace(/i/gi, 'imes').replace(/a/gi, 'ai').replace(/o/gi, 'ober').replace(/u/gi, 'ufat');
     document.querySelector('.texto-resultado').value = cifrado
     texto.value = ''
@@ -21,6 +21,7 @@ botonencriptar.onclick = function encriptar(){
 botondesencriptar.onclick = function desencriptar(){
     munieco.style.display = 'none';
     ningunTexto.style.display = 'none';
+    texto.value = texto.value.toLowerCase();
     var cifrado = texto.value.replace(/enter/gi,'e' ).replace(/imes/gi, 'i').replace(/ai/gi, 'a').replace(/ober/gi, 'o').replace(/ufat/gi, 'u');
     document.querySelector('.texto-resultado').value = cifrado
     texto.value = ''
